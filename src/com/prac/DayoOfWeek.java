@@ -7,8 +7,6 @@ public class DayoOfWeek {
     public static void main(String[] args) {
         System.out.println(solutions("Wed", 2));//"Fri"
         System.out.println(solutions("Sat", 23));//"Mon"
-
-        System.out.println(solution(17));
     }
 
    
