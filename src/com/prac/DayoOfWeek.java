@@ -11,13 +11,7 @@ public class DayoOfWeek {
         System.out.println(solution(17));
     }
 
-    public static int solution(int N) {
-        int result = 0;
-        int sqroot = (int) Math.sqrt(1+(8*N));
-        result += (-1 + sqroot)/2;
-
-        return result;
-    }
+   
 
     public static String solutions(String S, int K){
         int temp= 0;
